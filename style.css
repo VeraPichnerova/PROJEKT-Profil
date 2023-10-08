@@ -2,6 +2,92 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+
+body {
+	background-color: #bdc3c7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto {
+    width:300px;
+    position:relative;
+
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 75%;
+    position: absolute;
+    top: 180px;
+    left: 230px;
+    
+}
+.profil {
+    width: 300px;
+    background-color: #31363b;
+    box-shadow: 5px 5px 20px #696868;
+    color: white;
+}
+
+.obsah {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jmeno {
+    font-weight: normal;
+}
+
+.odkazy {
+    margin: 0;
+    padding:0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-variant-caps: all-petite-caps ;
+}
+
+li {
+list-style-type: none;
+display: inline-block;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    display:block;
+
+}
+
+.portfolio {
+    width:100%;
+    border: 1px solid #3f464d;
+}
+
+.facebook {
+    width:49%;
+    border-right: 1px solid #3f464d;
+}
+
+.twitter {
+    width:49%;
+}
+
+.portfolio:hover {
+    background-color: #e74c3c;
+}
+
+.facebook:hover {
+    background-color: #3b5998
+}
+.twitter:hover {
+    background-color: #1da1f2;
+    margin-bottom:5px;
+}
+
+
+
 /*
 	BARVY
 	czechitas  #b92e81
@@ -12,8 +98,3 @@ html { box-sizing: border-box; }
 	facebook   #3b5998
 	twitter    #1da1f2
 */
-
-
-body {
-	background-color: #bdc3c7;
-}
